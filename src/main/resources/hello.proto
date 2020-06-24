@@ -1,0 +1,7 @@
+syntax = "proto3";
+package example.echo;
+option java_package = "com.example.echo";
+option java_outer_classname = "Greeting";
+message HelloWorld {
+	string name = 1;
+}
